@@ -89,8 +89,7 @@ if($boolen)
 {
 if(mail('shailja2916@gmail.com','Verification Mail',$_POST["fname"].$_POST["lname"].$_POST["email"].$_POST["mob"].$_POST["txt"]))
 echo "THANK YOU";
-else
-echo "THANK YOU";
+
 }
                    
         }  
